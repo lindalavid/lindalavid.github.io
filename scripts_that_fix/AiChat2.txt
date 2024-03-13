@@ -1,0 +1,219 @@
+
+- take your time, no hurry, and do them all
+- change all div's to match the first one
+- remove html comments
+- put a blank line between each code div block
+- indent each code block by 4 spaces
+- wrap the code in markdown code blocks
+
+using this as a template:
+```
+    <div class="w3-col s6 m6 l3 art w3-center">
+        <a href="#" download onclick="triggerDownload(event)">
+          <img [same as is]
+        </a>
+      <div class="art-title">[same as is]</div>
+    </div>
+```
+
+change these:
+```
+    <!-- #1 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/activist.jpg" title="right-click to 'Open Image in New Tab'" alt="Art" class="w3-image">
+      <div class="art-title">Activist</div>
+    </div>
+
+    <!-- #2 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/adventurer.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Adventurer</div>
+    </div>
+
+    <!-- #3 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/artist.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Artist</i></div>
+    </div>
+
+    <!-- #4 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/caregiver.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Caregiver</div>
+    </div>
+
+    <!-- #1 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/chairman.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Chairman</div>
+    </div>
+
+    <!-- #2 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/crone.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Crone</div>
+    </div>
+
+    <!-- #3 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/designer.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Designer</i></div>
+    </div>
+
+    <!-- #4 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/dreamer.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Dreamer</div>
+    </div>
+
+    <!-- #1 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/freethinker.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Freethinker</div>
+    </div>
+
+    <!-- #2 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/friend.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Friend</div>
+    </div>
+
+    <!-- #3 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/healer.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Healer</i></div>
+    </div>
+
+    <!-- #4 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/iconoclast.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Iconoclast</div>
+    </div>
+
+    <!-- #1 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/influencer.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Influencer</div>
+    </div>
+
+    <!-- #2 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/ingenue.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Ingenue</div>
+    </div>
+
+    <!-- #3 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/innocent.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Innocent</i></div>
+    </div>
+
+    <!-- #4 -->
+    <div class="w3-col s6 m6 l3 artiw3-center">
+      <img src="images/and_you_are/innovator.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Innovator</div>
+    </div>
+
+    <!-- #1 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/matriarch.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Matriarch</div>
+    </div>
+
+    <!-- #2 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/medium.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Medium</div>
+    </div>
+
+    <!-- #3 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/mentor.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Mentor</i></div>
+    </div>
+
+    <!-- #4 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/muse.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Muse</div>
+    </div>
+
+    <!-- #1 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/peacemaker.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Peacemaker</div>
+    </div>
+
+    <!-- #2 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/poet.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Poet</div>
+    </div>
+
+    <!-- #3 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/rebel.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Rebel</i></div>
+    </div>
+
+    <!-- #4 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/romantic.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Romantic</div>
+    </div>
+
+    <!-- #1 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/scientist.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Scientist</div>
+    </div>
+
+    <!-- #2 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/searcher.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Searcher</div>
+    </div>
+
+    <!-- #3 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/siren.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Siren</i></div>
+    </div>
+
+    <!-- #4 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/spirit_Guide.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Spirit Guide</div>
+    </div>
+
+    <!-- #1 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/sprite.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Sprite</div>
+    </div>
+
+    <!-- #2 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/survivor.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Survivor</div>
+    </div>
+
+    <!-- #3 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/trickster.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Trickster</i></div>
+    </div>
+
+    <!-- #4 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/warrior.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Warrior</div>
+    </div>
+
+    <!-- #1 -->
+    <div class="w3-col s6 m6 l3 art w3-center">
+      <img src="images/and_you_are/writer.jpg" alt="Art" class="w3-image">
+      <div class="art-title">Writer</div>
+    </div>
+```
+

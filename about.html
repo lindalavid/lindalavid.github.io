@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Linda Lavid: Art</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="canonical" href="https://www.lindalavid.com"/>
+
+  <meta itemprop="name" content="Linda Lavid"/>
+  <meta itemprop="url" content="https://www.lindalavid.com"/>
+  <meta itemprop="description" content="Linda Lavid - Artist and Author."/>
+
+  <!-- link rel="shortcut icon" href="images/me-hermit-1-121x119.png" type="image/x-icon" -->
+
+  <meta name="description" content="Linda Lavid - Artist and Author.">
+
+  <link rel="stylesheet" href="css/w3.css">
+  <link href="fontawesome/css/all.min.css" rel="stylesheet">
+
+
+  <style>
+    body, h1, h2, h3, h4, h5, h6  {
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .art img {
+        width: 200px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .art {
+        /*text-align: center;*/
+    }
+
+    .art-title, .art-author {
+        height: 40px;
+        line-height: 20px;
+        margin: 5px 0;
+        margin-top: 10px;
+        display: flex;
+        /*align-items: center;*/
+        justify-content: center;
+    }
+
+    .art-author {
+        font-style: italic;
+        color: lightgray;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-left-align w3-small">
+    <a href="index.html"          class="w3-bar-item w3-button w3-padding w3-hide-small">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding w3-hide-small">About</a>
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  </div>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html"          class="w3-bar-item w3-button w3-padding">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding">About</a>
+  </div>
+</div>
+
+<br><br>
+
+<!-- description  -->
+<div class="container">
+  <h3>About</h3>
+  <p>
+    Who the heck are we? 
+    <br>
+    By day, we navigate the ordinary world, finding joy in organizing and a sparkle in a bit of glitter. 
+    But as the night descends, we transform into Mrs. Plum, a character who could have stepped right out of a 
+    board game, complete with drama and an oversized magnifying glass for our "research."
+    Our headquarters? The plum barn. This isn't just any barn but a haven where creativity knows no bounds, where 
+    paintbrushes seem to float by their own will, and stories eagerly leap from our minds to the page.
+    Choosing the moniker Mrs. Plum, we embrace the mystery and excitement that comes with it, occasionally 
+    donning dramatic capes and speaking to our furred companions about the wonders of creativity. 
+    To us, creativity is more than just an outlet; it's a versatile tool that heals, enlightens, and transforms 
+    the mundane into the magnificent.
+    <br>
+    In our world, creativity is the grand adventure, turning every day into a puzzle waiting to be solved, 
+    every idea into a mystery to be unraveled. 
+    <br>
+    Here's to the enigma, the art, and the chaos that flourishes within the walls of the plum barn, where each 
+    creation brings us closer to solving the grand mystery of life itself.
+  </p>
+  <p>
+    For more particulars…
+    <br>
+    Email address: lindalavid@gmail.com
+    <br>
+    YouTube channel: <a href="https://www.youtube.com/channel/UCeq5Df1fC-q9gi-4vWOq-DA" target="_blank">@lindalavid</a>
+  </p>
+</div>
+
+<!-- footer -->
+<!-- use: w3-bottom = display footer always at bottom of viewport -->
+<div class="w3-black w3-bottom"> 
+    <footer class="w3-container w3-center">  
+      <div class="w3-bar w3-medium">
+        <div class="w3-bar-item w3-text-gray">&copy; 2017-2024</div>
+        <a href="index.html" class="w3-bar-item w3-button w3-circle" style="text-decoration: none;" title=". . . . . Home">
+          &nbsp;<i class="w3-text-gray">Linda A Lavid</i>&nbsp;
+        </a>
+      </div>
+    </footer>
+</div>
+
+<br>&nbsp;<br>&nbsp;<br><br>
+
+<script>
+// the following handles both: 1. cell phone menu ... 2. image click opens new tab for downloading
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

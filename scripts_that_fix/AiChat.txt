@@ -1,0 +1,27 @@
+
+use these filenames:
+
+baby_steps.jpg
+bird.jpg
+evening.jpg
+ferries.jpg
+missy_blue.jpg
+moonlight.jpg
+quetzalcoatl.jpg
+
+
+to:
+- replace #? with a counter starting from 1
+- replace *** in the img tag with the full filename
+- replace *** in the class art-title div with the basename of the filename, but remove underscores and capitalize words properly
+- put a blank line between each code block
+- indent each code block by 4 spaces
+- wrap the code in markdown code blocks
+
+...in the following template html:
+<!-- #? -->
+<div class="w3-col s6 m6 l3 art w3-center">
+<img src="images/journal/***" alt="Art" class="w3-image">
+<div class="art-title">***</div>
+</div>
+
